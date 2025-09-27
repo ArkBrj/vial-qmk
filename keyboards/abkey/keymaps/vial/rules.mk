@@ -1,3 +1,5 @@
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
 VIAL_INSECURE = yes
+
+POINTING_DEVICE_DRIVER = analog_joystick
