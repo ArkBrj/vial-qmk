@@ -5,11 +5,11 @@
 //    format         | mono2
 //    unicode_glyphs | 
 //    output         | tmp
-//    input          | robotomono20.png
+//    input          | ssd1306xled_font6x8.png
 
 #pragma once
 
 #include <qp.h>
 
-extern const uint32_t font_robotomono20_length;
-extern const uint8_t  font_robotomono20[1402];
+extern const uint32_t font_ssd1306xled_font6x8_length;
+extern const uint8_t  font_ssd1306xled_font6x8[890];

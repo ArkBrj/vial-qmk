@@ -1,3 +1,6 @@
+CONSOLE_ENABLE = yes
+BOOTMAGIC_ENABLE = no
+
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
 VIAL_INSECURE = yes
@@ -7,4 +10,5 @@ POINTING_DEVICE_DRIVER = analog_joystick
 QUANTUM_PAINTER_ENABLE = yes
 QUANTUM_PAINTER_DRIVERS = sh1106_i2c
 
-SRC += robotomono20.qff.c
+SRC += ssd1306xled_font6x8.qff.c 
+SRC += labels.c 
